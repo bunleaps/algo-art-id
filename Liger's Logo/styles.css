@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: white;
+    font-family: Poppins;
+}
+
+.title {
+    color: black;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+
+    position: relative;
+    background: none;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+@keyframes rainbow {
+    0%, 100% {
+        fill: red;
+    }
+    33% {
+        fill: blue;
+    }
+    66% {
+        fill: yellow;
+    }
+}
+
+img {
+    animation: rainbow 60s linear infinite;
+}

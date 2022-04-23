@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background: #efedf8;
+    font-family: Poppins;
+}
+
+.title {
+    color: black;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+
+    position: relative;
+    background: none;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+div.back_hair {
+    background: #000;
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    border-radius: 50%;
+}
+div.back_hair_1 {
+    background: rgb(26, 26, 31);
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border-radius: 50%;
+}
+div.ear {
+    background: #ee917f;
+    width: 33%;
+    height: 6%;
+    position: absolute;
+    top: 35%;
+    left: 34.2%;
+    border-radius: 200px ;
+}
+
+div.skin_to_neck {
+    background: #f3a68c;
+    width: 20%;
+    height: 60%;
+    position: absolute;
+    top: 18%;
+    left: 40.5%;
+    border-radius: 200px 200px 0 0;
+    clip-path: inset(0 0 20% 0);
+}
+
+div.face {
+    background: #f6c09c;
+    width: 25%;
+    height: 40%;
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    border-radius: 200px;
+}
+
+div.hair {
+    background: rgb(26, 26, 31);
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    border-radius: 50%;
+}
+
+div.eye1 {
+    background: rgb(26, 26, 31);
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    top: 33%;
+    left: 42%;
+    border-radius: 50%;
+}
+
+div.eye2 {
+    background: rgb(26, 26, 31);
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    top: 33%;
+    left: 55%;
+    border-radius: 50%;
+}
+
+div.nose {
+    background: #ee917f;
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    border-radius: 200px ;
+}
+
+div.mouth {
+    background: #000;
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    border-radius: 50%;
+    clip-path: inset(30% 0 0 0);
+}
+
+div.mouth .to {
+    background: rgb(250, 90, 90);
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    border-radius: 50%;
+}
